@@ -26,10 +26,10 @@ public class Lab1 {
 	   String line = in.readLine();
 	   while(line != null){
                fileContents.add(line);
-               if(fileContents.== 1){
-		  System.out.println(line);
+             
 		  line = in.readLine();  // strips out any carriage return chars
-	   }
+	     String s = fileContents.get(1);
+		  System.out.println();
            }
         } catch(IOException ioe) {
             System.out.println("Houston, we have a problem! reading this file");
